@@ -22,6 +22,7 @@ The application analyzes a resume in PDF format, extracts relevant skills, predi
 
 ## 🧠 How It Works
 
+```text
 Resume PDF
      ↓
 Extract Resume Text
@@ -39,6 +40,7 @@ Job Role Matching
 Gemini AI Analysis
      ↓
 Resume Feedback & Recommendations
+```
 
 ---
 
@@ -77,6 +79,7 @@ Resume Feedback & Recommendations
 
 ## 📁 Project Structure
 
+```text
 AI_Resume_Analyzer/
 │
 ├── data/
@@ -92,20 +95,29 @@ AI_Resume_Analyzer/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
+
+---
 
 ## ⚙️ Installation
 
 ### 1. Clone the repository
 
+```bash
 git clone https://github.com/annaanitha11-art/AI_Resume_Analyzer.git
+```
 
 ### 2. Open the project folder
 
+```bash
 cd AI_Resume_Analyzer
+```
 
 ### 3. Install dependencies
 
+```bash
 python -m pip install -r requirements.txt
+```
 
 ---
 
@@ -117,7 +129,9 @@ Create a Gemini API key and store it as an environment variable.
 
 ### Windows PowerShell
 
+```powershell
 $env:GEMINI_API_KEY="YOUR_API_KEY"
+```
 
 Do **not** place your API key directly inside the Python source code or upload it to GitHub.
 
@@ -127,7 +141,9 @@ Do **not** place your API key directly inside the Python source code or upload i
 
 Start the Streamlit application using:
 
+```bash
 python -m streamlit run app.py
+```
 
 The application will open in your browser.
 
@@ -139,6 +155,7 @@ Upload a PDF resume to begin the analysis.
 
 For a sample Computer Science resume, the application can provide results such as:
 
+```text
 Resume Match Level: Medium
 
 Top Job Recommendations:
@@ -154,6 +171,7 @@ Top Job Recommendations:
 3. Java Developer — 25%
    Matched Skills: Java
    Missing Skills: SQL, Spring Boot, Git
+```
 
 The Gemini AI component then provides:
 
@@ -273,3 +291,17 @@ JNTUH College of Engineering Sultanpur
 ## 📌 Project Repository
 
 GitHub: https://github.com/annaanitha11-art/AI_Resume_Analyzer
+
+````
+
+### After saving
+
+Run:
+
+```powershell
+git status
+````
+
+You should see that **only `README.md` has been modified**.
+
+Don't commit yet. Send me the `git status` output and we'll review it before pushing the README update.
