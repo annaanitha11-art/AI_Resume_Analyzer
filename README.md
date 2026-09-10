@@ -293,15 +293,3 @@ JNTUH College of Engineering Sultanpur
 GitHub: https://github.com/annaanitha11-art/AI_Resume_Analyzer
 
 ````
-
-### After saving
-
-Run:
-
-```powershell
-git status
-````
-
-You should see that **only `README.md` has been modified**.
-
-Don't commit yet. Send me the `git status` output and we'll review it before pushing the README update.
